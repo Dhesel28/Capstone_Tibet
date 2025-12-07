@@ -1,0 +1,49 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# API keys
+**/secrets.py
+**/config.py
+**/.env
+*.key
+
+# Model files (too large for git)
+*.pt
+*.pth
+*.bin
+*.h5
+
+# Large data files
+*.pkl
+data/processed/*.pkl
+data/processed/balanced_preprocessed.pkl
+
+# Temporary notebook files
+notebooks/temp_*
+notebooks/*.html
+
+# Guardian checkpoint files (large)
+guardian_checkpoint_*.csv
+
+# LDA model files
+notebooks/temp_lda_model*
+
+# Sample Project folder
+Sample Project/
